@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import welcomeToTheBrainGames from '../src/cli.js';
+import welcomeToTheBrainGames from '../../src/cli.js';
 
 const yourName = welcomeToTheBrainGames();
 
