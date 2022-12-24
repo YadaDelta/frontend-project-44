@@ -2,10 +2,19 @@
 [![Actions Status](https://github.com/YadaDelta/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/YadaDelta/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/491faa8692ec1ce012f8/maintainability)](https://codeclimate.com/github/YadaDelta/frontend-project-44/maintainability)
 
+### This is a set of 5 mini-games in a form of a project called "Brain Games".
+
+#### Requirements:
+* Unix-like system
+* Node.js v13+
+
 ### Commands
 #### Installation:
 ```
+git clone https://github.com/YadaDelta/frontend-project-44
+cd frontend-project-44
 make install
+npm link
 ```
 
 #### Games:
