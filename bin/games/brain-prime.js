@@ -3,7 +3,7 @@
 import gameInit from '../../src/index.js';
 import getRandomNumber from '../../src/math.js';
 
-const gameTutorial = ('Answer "yes" if given number is prime, otherwise say "no".');
+const gameTutorial = ('Answer "yes" if given number is prime, otherwise answer "no".');
 
 const gameLogic = () => {
   const roundQuestion = getRandomNumber(100);

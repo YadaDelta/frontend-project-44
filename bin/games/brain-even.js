@@ -3,7 +3,7 @@
 import gameInit from '../../src/index.js';
 import getRandomNumber from '../../src/math.js';
 
-const gameTutorial = ('Answer "yes" if the number is even, otherwise say "no".');
+const gameTutorial = ('Answer "yes" if the number is even, otherwise answer "no".');
 
 const gameLogic = () => {
   const roundQuestion = getRandomNumber(100);
