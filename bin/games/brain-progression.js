@@ -3,7 +3,7 @@
 import gameInit from '../../src/index.js';
 import getRandomNumber from '../../src/math.js';
 
-const gameTutorial = ('What number is missing from the progression?');
+const gameTutorial = ('What number is missing in the progression?');
 
 const gameLogic = () => {
   const progressionArray = [];
