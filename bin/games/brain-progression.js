@@ -6,10 +6,13 @@ import getRandomNumber from '../../src/math.js';
 const gameTutorial = ('What number is missing in the progression?');
 
 const gameLogic = () => {
+  const maxNumber = 10;
+  const safeBuffer = 5;
+
   const progressionArray = [];
-  const firstElement = getRandomNumber(10);
-  const amountOfElements = getRandomNumber(10) + 5;
-  const incrementalAmount = getRandomNumber(10);
+  const firstElement = getRandomNumber(maxNumber);
+  const amountOfElements = getRandomNumber(maxNumber) + safeBuffer;
+  const incrementalAmount = getRandomNumber(maxNumber);
   for (let i = 0; i < amountOfElements; i += 1) {
     progressionArray.push(firstElement + incrementalAmount * i);
   }

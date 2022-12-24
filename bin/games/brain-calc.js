@@ -6,10 +6,12 @@ import getRandomNumber from '../../src/math.js';
 const gameTutorial = ('What is the result of the expression?');
 
 const gameLogic = () => {
-  const firstNumber = getRandomNumber(100);
-  const secondNumber = getRandomNumber(100);
+  const maxNumber = 100;
+  const operatorsNumber = 3;
+  const firstNumber = getRandomNumber(maxNumber);
+  const secondNumber = getRandomNumber(maxNumber);
   const operators = ['+', '-', '*'];
-  const roundOperator = operators[getRandomNumber(3)];
+  const roundOperator = operators[getRandomNumber(operatorsNumber)];
   const roundQuestion = `${firstNumber} ${roundOperator} ${secondNumber}`;
   let roundRealAnswer = 0;
   switch (roundOperator) {

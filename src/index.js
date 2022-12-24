@@ -21,7 +21,7 @@ const gameInit = (gameTutorial, gameLogic) => {
       break;
     }
   }
-  if (i === 3) {
+  if (i === gameRoundCount) {
     console.log(`Congratulations, ${yourName}!`);
   }
 };

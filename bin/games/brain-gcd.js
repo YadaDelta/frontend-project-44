@@ -6,8 +6,11 @@ import getRandomNumber from '../../src/math.js';
 const gameTutorial = ('Find the greatest common divisor of given numbers.');
 
 const gameLogic = () => {
-  const firstNumber = getRandomNumber(100) + 1;
-  const secondNumber = getRandomNumber(100) + 1;
+  const maxNumber = 100;
+  const safeBuffer = 1;
+
+  const firstNumber = getRandomNumber(maxNumber) + safeBuffer;
+  const secondNumber = getRandomNumber(maxNumber) + safeBuffer;
   const roundQuestion = `${firstNumber} ${secondNumber}`;
 
   let x = firstNumber;

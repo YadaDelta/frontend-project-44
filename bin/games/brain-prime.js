@@ -6,7 +6,10 @@ import getRandomNumber from '../../src/math.js';
 const gameTutorial = ('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 const gameLogic = () => {
-  const roundQuestion = getRandomNumber(100);
+  const maxNumber = 100;
+  const safeBuffer = 2;
+
+  const roundQuestion = getRandomNumber(maxNumber) + safeBuffer;
   let i = 2;
   let numberOfDivisibles = 0;
   while (i <= roundQuestion / 2) {
